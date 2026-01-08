@@ -1,0 +1,23 @@
+[Work 3 Start]
+
+- According to the [key steps] in Work 2, find the corresponding [key point] to in the images. 
+- The [key point] should mark the key position where the robot can successfully grasp the object and satisfy the conditions in the [task description].
+- What is the representation of this [key point]? Why you choose to grasp here?
+- How can this [key point] satisify the [task description]?
+- Mark the point in the [multi-view images] and write the position (x,y,z).
+- Write "==== Work 3 ====" at the start of the answer.
+
+- Finally, summarize the answer to a template:
+
+```
+{
+    "Front view": [x, z], 
+    "Top view": [x, y], 
+    ...
+    "Overall pose in 3D": [x, y, z]
+}
+```
+- The "Overall pose in 3D" means you synthesize the results in all views.
+
+
+[Work 3 End]

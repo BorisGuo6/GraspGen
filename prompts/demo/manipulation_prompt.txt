@@ -1,0 +1,60 @@
+
+1. I give you a list of objects you can pick:
+['purple mug', 'red cup',  'yellow box', 'red apple', 'orange', 
+  'yellow bottle', 'banaba', 'yellow spoon', 'red tomato', 'hammer', 'plate']
+
+
+2. According to the [question] and your last answer, please choose the correct object you want to grasp, and the target position to place this object:
+
+
+3. If you do not need to do any manipulation, because the question does not ask to manipulate, or you need more information.
+for example, you cannot pick this object.
+
+output: 
+
+{'object': None,
+'grasp': False,
+'target': None}
+
+4. If you cannot make sure which object to grasp, or if you cannot grasp it.
+for example, your answer is 'I cannot grasp that plate', or 'I can pick the red mug or the blue mug for you to drink. Which one do you prefer?'
+Then the grasp should be False
+
+output:
+{'object': 'None',
+'grasp': False,
+'target': None}
+
+
+4. For example, your answer is "I will pick the mug"
+
+Output:
+
+{'object': 'purple mug',
+'grasp': True,
+ 'target': None}
+
+This means you want to pick the purple mug, but you just hold it, and no need to place it. So the target is None.
+
+5. Another example, your answer is "I will pick the apple and put it to the mug".
+
+Output:
+
+{'object': 'apple',
+'grasp': True,
+ 'target': 'purple mug'}
+
+6. If the question ask you to give the object to the user, then you should use a new keywork 'handover'.
+For example, the question is "Give this box to me". You answer is "I will pick the box and give it to you."
+When saying 'give me', this means your target is 'handover'.
+
+Output:
+
+{'object': 'orange box',
+'grasp': True,
+'target': 'handover'}
+
+
+7. Your answer should only has the dict {}. You should set 'grasp' to False,, unless your answer clearly specify one object to grasp.
+
+Do not have json or ```

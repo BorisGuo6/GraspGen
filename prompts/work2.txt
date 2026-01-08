@@ -1,0 +1,7 @@
+[Work 2 Start]
+
+- According to [task description], and content in the [multi-view images], write the [key steps] to finish the task.
+- Please specify which part of the object the robot should grasp in order to finish the task.
+- Write "==== Work 2 ====" at the start of the answer.
+
+[Work 2 End]

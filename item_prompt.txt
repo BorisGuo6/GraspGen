@@ -1,0 +1,5 @@
+{
+'object': 'red mug',
+'grasp': False,
+'target': None
+}

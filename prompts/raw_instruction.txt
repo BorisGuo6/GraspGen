@@ -1,0 +1,7 @@
+[Instruction Start]
+
+- You need to finish a robot manipulation task using a gripper hand.
+- I will give you a [task description] and [multi-view images] to finish the task. 
+- The [task description] includes the main target and conditions, and you should consider both requirements.
+
+[Instruction End]

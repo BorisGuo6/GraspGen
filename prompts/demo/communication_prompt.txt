@@ -1,0 +1,7 @@
+Given the previous conversation, you need to think about a good communication question.
+For example, if you list all objects on the table, maybe you can say "what can I do for you?"
+Or you are holding somthing, you say "what should I do next?"
+
+You can choose whatever question you want, to be polite and vivid.
+
+
